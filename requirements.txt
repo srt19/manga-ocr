@@ -8,3 +8,4 @@ pyperclip
 torch>=1.0
 transformers>=4.12.5
 unidic_lite
+cutlet
