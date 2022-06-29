@@ -1,7 +1,7 @@
 # Manga OCR
 
 Optical character recognition for Japanese text, with the main focus being Japanese manga.
-It uses a custom end-to-end model built with Transformers' [Vision Encoder Decoder](https://huggingface.co/docs/transformers/model_doc/visionencoderdecoder) framework. 
+It uses a custom end-to-end model built with Transformers' [Vision Encoder Decoder](https://huggingface.co/docs/transformers/model_doc/vision-encoder-decoder) framework. 
 
 Manga OCR can be used as a general purpose printed Japanese OCR, but its main goal was to provide a high quality
 text recognition, robust against various scenarios specific to manga:
@@ -15,6 +15,9 @@ Unlike many OCR models, Manga OCR supports recognizing multi-line text in a sing
 so that text bubbles found in manga can be processed at once, without splitting them into lines.
 
 See also:
+- [Poricom](https://github.com/bluaxees/Poricom), a GUI reader, which uses manga-ocr
+- [mokuro](https://github.com/kha-white/mokuro), a tool, which uses manga-ocr to generate an HTML overlay for manga
+- [Xelieu's guide](https://rentry.co/lazyXel), a comprehensive guide on setting up a reading and mining workflow with manga-ocr/mokuro (and many other useful tips)
 - Development code, including code for training and synthetic data generation: [link](manga_ocr_dev)
 - Description of synthetic data generation pipeline + examples of generated images: [link](manga_ocr_dev/synthetic_data_generator)
 
